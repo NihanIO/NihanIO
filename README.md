@@ -1,16 +1,18 @@
-## Hi there 👋
+<h1>Developer Info</h1>
 
-<!--
-**COCGAMERS/COCGAMERS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```html
+Nihan Bin Mahmood
+<Mob> 0171*******
+<Add> Rangpur,Bangladesh 🇧🇩
+<Ema> ************@gmail.com    
+```
 
-Here are some ideas to get you started:
+<<Age: 16 🇧🇩
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<<Edu: Rather not say
+
+<img src=".\images\logo.png" width = "200"/>
+
+[website] (https://www.google.com/)
+
+_.cpp,.js,.java,.css,.html,.lua,.cleo,.py,.cs,.c and more_
