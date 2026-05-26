@@ -7,7 +7,7 @@ Nihan Bin Mahmood
 <Ema> ************@gmail.com    
 ```
 
-<<Age: 16 🇧🇩
+<<Age: 16 
 
 <<Edu: Rather not say
 
