@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Info</title>
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #000000; /* Dark background */
+            color: #ffffff; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            text-align: center;
+            background: #000000;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(132, 90, 201, 0.5);
+        }
+
+        h1 {
+            color: #bb86fc; 
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #b0b0b0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #eceeee; 
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Dev Profile</h1>
+        -----------------------------------------------------
+        <br>
+        <br>
+
+        <img src="images\dev.jpg" width =150 hight =100>
+        <br>
+        <br>
+        
+        <div style="position: relative; background: #1e1e1e; border-radius: 8px; padding: 15px; font-family: monospace; max-width: 600px;">
+    
+    <button id="copyBtn" onclick="copyCode()" style="position: absolute; top: 10px; right: 10px; padding: 6px 12px; background: #444; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+        Copy
+    </button>
+
+    <pre style="margin: 0; color: #dcdcdc; overflow-x: auto;"><code id="codeContent">
+Nihan Mahmood
+Add:Rangpur,Bangladesh🇧🇩
+Mob:+88013********
+Ema:c**********1@gmail.com
+    </code></pre>
+   
+    
+    
+</div>
+ <p>
+        
+        <i>Age:</i> 16<br>
+        <i>Gen:</i> Male<br>
+        <i>Edu:</i> Rather not say<br>
+        <i>Lan:</i> Ban , Eng [int] , Hin [lim] , Urd [lim]<br>
+        <b>.cpp,.css,.html,.js,.java,.py,.cleo,.c,.lua,.cs etc</b><br>
+        </p>
+        
+        <br>
+
+<script>
+    async function copyCode() {
+        const code = document.getElementById('codeContent').innerText.trim();
+        const btn = document.getElementById('copyBtn');
+        
+        try {
+            await navigator.clipboard.writeText(code);
+            btn.innerText = "Copied!";
+            btn.style.background = "#2e7d32"; // Success green
+            
+            setTimeout(() => {
+                btn.innerText = "Copy";
+                btn.style.background = "#444";
+            }, 2000);
+        } catch (err) {
+            alert("Failed to copy code.");
+        }
+    }
+</script>
+        
+        <a href="#" class="btn">Donate 300$</a>
+    </div>
+
+    <footer>
+        &copy; nihan_mahmood<br>
+        Software Developer | Tuff Gamer | Open Source Contributor
+    </footer>
+
+</body>
+</html>
